@@ -5,3 +5,24 @@ forage:
   status: live
   category: blog
   launched: 2022-02-10
+apacagencies:
+  name: APAC Agencies
+  description: Helping marketers find the top agencies in Asia Pacific.
+  url: https://www.apacagencies.com
+  status: live
+  category: directory
+  launched: 2022-05-02
+strategyandsourdough:
+  name: Strategy & Sourdough
+  description: A marketing podcast for growth stage startups in search of balance between strategy and execution.
+  url: https://www.strategyandsourdough.com
+  status: archived
+  category: podcast
+  launched: 2020-10-05
+treinklok:
+  name: TreinKlok
+  description: Train departure tool for major stations in the Netherlands.
+  url: https://www.treinklok.nl
+  status: upcoming
+  category: app
+  # launched: 2020-10-05
