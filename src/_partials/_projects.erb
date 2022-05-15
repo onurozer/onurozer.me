@@ -1,0 +1,7 @@
+<% site.data.projects.each do |project| %>
+  <div class="project mb-6">
+    <h3 class="font-bold"><%= project[1].name %></h3>
+    <p><%= project[1].description %></p>
+    <%= link_to project[1].url.sub(/^https?\:\/\/(www.)?/,''), project[1].url %>
+  </div>
+<% end %>

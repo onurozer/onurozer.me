@@ -3,13 +3,13 @@
   <head>
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
-  <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-
-    <main>
-      <%= yield %>
+  <body class="p-10 flex flex-col min-h-screen <%= resource.data.layout %> <%= resource.data.page_class %>">
+    <%= render "header", metadata: site.metadata %>
+    <main class="py-12 flex-grow">
+      <div class="content text-xl container max-w-2xl">
+        <%= yield %>
+      </div>
     </main>
-
     <%= render "footer", metadata: site.metadata %>
   </body>
 </html>

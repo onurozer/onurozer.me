@@ -1,0 +1,7 @@
+forage:
+  name: Forage
+  description: A blog in search of the best food, cocktails and travel experiences around the world.
+  url: https://forage.sg
+  status: live
+  category: blog
+  launched: 2022-02-10
