@@ -1,10 +1,15 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
-    './src/**/*.{html,md,liquid,erb,serb}',
-    './frontend/javascript/**/*.js',
+    "./src/**/*.{html,md,liquid,erb,serb}",
+    "./frontend/javascript/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // sans: ["Satoshi-Variable", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
-  plugins: [],
-}
+};
