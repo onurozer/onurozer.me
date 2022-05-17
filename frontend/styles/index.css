@@ -16,15 +16,24 @@
   font-style: normal;
 }
 
+.project-live {
+  @apply bg-lime-200;
+}
+.project-archived {
+  @apply bg-gray-200;
+}
+.project-upcoming {
+  @apply bg-yellow-200;
+}
 @layer base {
   .content > p {
-    @apply mb-6;
+    @apply mb-8;
   }
   .content a {
-    @apply text-blue-500;
+    @apply text-pink-700;
   }
   .content h1 {
-    @apply font-bold text-6xl mb-6 tracking-tight;
+    @apply text-5xl mb-8 tracking-tight font-extrabold;
   }
   .content h2 {
     @apply font-bold text-3xl mb-3 mt-12;
@@ -35,10 +44,10 @@
 
   .content ol,
   .content ul {
-    @apply mb-6;
+    @apply mb-8;
   }
 
   .content li {
-    @apply ml-4 list-disc;
+    @apply ml-5  list-disc;
   }
 }

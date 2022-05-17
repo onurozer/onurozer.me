@@ -1,8 +1,8 @@
 <header>
-  <div class="space-x-3">
-    <a href="<%= url_for 'index.md' %>" class="">Home</a>
-    <a href="<%= url_for 'posts.md' %>" class="">Posts</a>
-    <a href="<%= url_for 'projects.md' %>" class="">Projects</a>
-    <a href="<%= url_for 'about.md' %>" class="">About</a>
+  <div class="flex flex-wrap gap-x-6">
+    <a href="<%= url_for 'index.md' %>" class="<%= "font-bold" if resource.data.slug == "index"  %>"><%= site.metadata.title %></a>
+    <a href="<%= url_for 'posts.md' %>" class="<%= "font-bold" if resource.data.slug == "posts" || resource.data.layout == "post"  %>">Posts</a>
+    <a href="<%= url_for 'projects.md' %>" class="<%= "font-bold" if resource.data.slug == "projects"  %>">Projects</a>
+    <!-- <a href="<%# url_for 'about.md' %>" class="<%= "font-bold" if resource.data.slug == "about"  %>">About</a>-->
   </div>
 </header>

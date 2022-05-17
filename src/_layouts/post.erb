@@ -1,7 +1,19 @@
 ---
 layout: default
 ---
-<h1><%= resource.data.title %></h1>
-<div class="content">
+<article class="post content">
+  <header>
+    <time class="text-sm uppercase" datetime="<%= resource.date.strftime("%Y-%d-%m") %>">
+      <%= resource.date.strftime("%b %d, %Y") %>
+    </time>
+    <h1 class=""><%= resource.data.title %></h1>
+    <!-- 
+    <div class="tags mb-10 flex flex-wrap gap-x-2 gap-y-2">
+      <% resource.data.tags.each do |tag| %>
+        <span class="bg-gray-300 text-base rounded-full px-4 py-1"><%= tag.capitalize %></span>
+      <% end %>
+    </div>
+    -->
+  </header>
   <%= yield %>
-</div>
+</article>

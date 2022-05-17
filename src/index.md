@@ -9,20 +9,20 @@ title: Onur Ozer
   <img src="<%= site.metadata.photo %>" alt="" class="rounded-full" />
 </div>
   
-# Hi! I'm Onur
+# Marketer turned bootstrapper.
 
-Marketer turned bootstrapper. I help startup founders with marketing at [Simple Matters](<%= site.metadata.social.simplematters %>), host the [Strategy & Sourdough](https://www.strategyandsourdough.com) podcast and cook & eat at [forage.sg](https://www.forage.sg).
-
-<% unless site.data.projects.empty? %>
-
-## Projects
-
-<%= render "projects" %>
-<% end %>
+Hi, I'm Onur. I'm the founder of [Simple Matters](<%= site.metadata.social.simplematters %>), where I help startup founders on marketing & growth. Currently, I'm on a quest to learn how to build better products and make a living on the web. I share my experience and observations here.
 
 <% unless collections.posts.resources.empty? %>
 
 ## Posts
 
 <%= render "posts" %>
+<% end %>
+
+<% unless site.data.projects.empty? %>
+
+## Projects
+
+<%= render "projects" %>
 <% end %>
