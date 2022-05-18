@@ -7,14 +7,14 @@ apacagencies:
   launched: 2022-05-02
 forage:
   name: Forage
-  description: Food and cocktail recipe blog without life stories or ads.
+  description: Food and cocktail recipes without life stories or ads.
   url: https://forage.sg
   status: live
   category: blog
   launched: 2022-02-10
 strategyandsourdough:
   name: Strategy & Sourdough
-  description: Marketing & growth podcast for growth-stage startups.
+  description: Brand & marketing podcast for growth-stage startups.
   url: https://www.strategyandsourdough.com
   status: archived
   category: podcast
