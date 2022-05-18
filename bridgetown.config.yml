@@ -28,3 +28,6 @@ template_engine: erb
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+
+plausible:
+  domain: onurozer.me
