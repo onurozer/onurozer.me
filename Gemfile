@@ -1,25 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-####
-# Welcome to your project's Gemfile, used by Rubygems & Bundler.
-#
-# To install a plugin, run:
-#
-#   bundle add new-plugin-name -g bridgetown_plugins
-#
-# This will ensure the plugin is added to the correct Bundler group.
-#
-# When you run Bridgetown commands, we recommend using a binstub like so:
-#
-#   bin/bridgetown start (or console, etc.)
-#
-# This will help ensure the proper Bridgetown version is running.
-####
-
-# If you need to upgrade/switch Bridgetown versions, change the line below
-# and then run `bundle update bridgetown`
-gem "bridgetown", "~> 1.0.0"
+gem "bridgetown", "~> 1.2.0"
 
 # Uncomment to add file-based dynamic routing to your project:
 # gem "bridgetown-routes", "~> 1.0.0", group: :bridgetown_plugins
@@ -28,4 +10,12 @@ gem "bridgetown", "~> 1.0.0"
 # (you can optionally limit this to the "development" group)
 gem "puma", "~> 5.6"
 
-gem "bridgetown-plausible", "~> 1.0", :group => :bridgetown_plugins
+group :development do
+  gem "standard"
+end
+
+group :bridgetown_plugins do
+  gem "bridgetown-plausible", "~> 1.1"
+  # gem "bridgetown-seo-tag", "~> 5.0"
+  # gem "bridgetown-sitemap", "~> 1.1"
+end
