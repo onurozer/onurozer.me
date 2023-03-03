@@ -42,7 +42,7 @@ There's a time and place for structured learning with books and courses, but inf
 
 As much as I am interested in the domain, curating, writing, editing and optimising content takes a lot of effort. Also, building content-heavy businesses take a long time to produce results. Without a plan for consistently creating high quality content, this is probably not be the best business model for an solo entrepreneur to pursue. Although the jury is still out on this, and I would like to be proven wrong.
 
-## Start talking about it early.
+## Start marketing early
 
 Ironically, as a marketer, I could have done a better job of marketing. Talking about the product while building it helps get some early feedback and gauge interest. It can also help to build an audience. I spent most of my time building and not enough time on talking about it.
 
