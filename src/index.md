@@ -11,7 +11,7 @@ title: Onur Ozer
   
 # Marketer turned bootstrapper.
 
-Hi, I'm Onur. I'm the founder of [Simple Matters](https://simplematters.co/), where I help startup founders on marketing & growth. Currently, I'm on a quest to learn how to build better products and make a living on the web. I share my experience and observations here.
+Hi, I'm Onur. I'm the founder of [Simple Matters](https://simplematters.co/), where I help startup founders on marketing & growth. Currently, I'm on a quest to learn how to build better products and make a living on the web. Here, I share my experiences and observations.
 
 <% unless collections.posts.resources.empty? %>
 
