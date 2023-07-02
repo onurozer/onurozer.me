@@ -1,3 +1,10 @@
+meetlars:
+  name: Meet Lars
+  description: Your AI Digital Strategist.
+  url: https://meetlars.com
+  status: live
+  category: tool
+  launched: 2023-06-05
 drinklikeawolf:
   name: Drink Like a Wolf
   description: Global community for natural wine makers and places.
