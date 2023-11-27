@@ -17,7 +17,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://onurozer.me" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: /:slug/
 template_engine: erb
@@ -28,6 +28,6 @@ template_engine: erb
 # If you're using esbuild for frontend assets, edit `esbuild.config.js` to
 # update `publicPath`.
 
-# timezone: America/Los_Angeles
+timezone: Asia/Singapore
 # pagination:
 #   enabled: true
