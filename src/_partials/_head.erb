@@ -4,6 +4,10 @@
 <title><% if resource_title != "Onur Ozer" %><%= resource_title %> - <%= metadata.title %><% else %><%= metadata.title %><% end %></title>
 <meta name="description" content="<%= metadata.description %>" />
 <link rel="stylesheet" href="<%= webpack_path :css %>" />
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <script src="<%= webpack_path :js %>" defer></script>
-<%= plausible %>
+<% if Bridgetown.env.production? %>
+  <script defer data-domain="onurozer.me" src="https://plausible.io/js/script.js"></script>
+<% end %>
 <%= live_reload_dev_js %>
