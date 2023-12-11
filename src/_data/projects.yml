@@ -1,42 +1,34 @@
-meetlars:
-  name: Meet Lars
+- name: Meet Lars
   description: Your AI Digital Strategist.
   url: https://meetlars.com
   status: live
   category: tool
   launched: 2023-06-05
-drinklikeawolf:
-  name: Drink Like a Wolf
+
+- name: Drink Like a Wolf
   description: Global community for natural wine makers and places.
   url: https://drinklikeawolf.com
   status: live
   category: community
   launched: 2023-02-28
-apacagencies:
-  name: APAC Agencies
+
+- name: APAC Agencies
   description: Agency directory for marketers in Asia Pacific.
   url: https://www.apacagencies.com
   status: live
   category: directory
   launched: 2022-05-02
-forage:
-  name: Forage
-  description: Food and cocktail recipes without life stories or ads.
+
+- name: Forage
+  description: Food and cocktail recipes without life stories, ads or trackers.
   url: https://forage.sg
   status: live
   category: blog
   launched: 2022-02-10
-strategyandsourdough:
-  name: Strategy & Sourdough
+
+- name: Strategy & Sourdough
   description: Brand & marketing podcast for growth-stage startups.
   url: https://www.strategyandsourdough.com
   status: archived
   category: podcast
   launched: 2020-10-05
-# treinklok:
-#   name: TreinKlok
-#   description: Train departure tool for major stations in the Netherlands.
-#   url: https://www.treinklok.nl
-#   status: upcoming
-#   category: app
-#   launched: 2020-10-05

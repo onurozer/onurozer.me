@@ -1,13 +1,9 @@
-<% site.data.projects.each do |project| %>
-  <div class="project mb-6">
-    <div class="title flex items-center gap-x-2">
-      <h3 class=""><%= project[1].name %></h3>
-      <!-- 
-      <span class="text-xs rounded-full px-3 py-[0.125rem] project-<%= project[1].status %>"><%= project[1].status.capitalize %></span>
-      <span class="text-xs bg-gray-200 rounded-full px-3 py-[0.125rem] "><%= project[1].launched.strftime("%Y") %></span>
-      -->
+<% site.data.projects.sort_by{|x| x.launched }.reverse.each do |project| %>
+  <div class="mb-6 project">
+    <div class="flex items-center title gap-x-2">
+      <h3 class=""><%= project.name %></h3>
     </div>
-    <p class=""><%= project[1].description %></p>
-    <%= link_to "Visit #{project[1].url.sub(/^https?\:\/\/(www.)?/,'')}", project[1].url, class: " after:content-['_↗']" %>
+    <p class=""><%= project.description %></p>
+    <%= link_to "Visit #{project.url.sub(/^https?\:\/\/(www.)?/,'')}", project.url, class: "external" %>
   </div>
 <% end %>
