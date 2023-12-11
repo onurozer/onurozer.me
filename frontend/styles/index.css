@@ -42,3 +42,9 @@
     @apply ml-5 list-disc;
   }
 }
+
+@layer components {
+  .external {
+    @apply after:content-['_↗'];
+  }
+}
