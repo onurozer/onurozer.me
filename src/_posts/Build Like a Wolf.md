@@ -1,11 +1,9 @@
 ---
-layout: post
-title: "Build Like a Wolf"
-# slug: "product-vs-marketing"
 published: true
 tags:
   - entrepreneurship
   - product
+date: 2023-03-03
 ---
 
 A few days ago, I launched [Drink Like a Wolf](https://drinklikeawolf.com/), a community to help people discover natural wine makers and places. I found out that discipline and deadlines actually work, prioritising is hard, creating quality content is harder, and marketing early is a must.
@@ -26,11 +24,11 @@ One month was too short to build most of the things I wanted, but long enough ti
 
 One of the biggest challenges for a solo entrepreneur is staying focused. Figuring out what is worth building and avoiding rabbit holes is hard. To stay on track, I used a simple Notion board.
 
-![Drink Like a Wolf Roadmap](../images/dlaw-notion-board.png)
+![[attachments/dlaw-notion-board.png]]
 
 Going through the exercise of figuring out which ideas are worth building every week, and focusing on a handful of things every day helped me a lot to stay focused.
 
-Having said that, I'm working on improving on this. For example, I spent two days working on the "design" in Figma. Judging by the final product, I think it's fair to say that this was unncessary.
+Having said that, I'm working on improving on this. For example, I spent two days working on the "design" in Figma. Judging by the final product, I think it's fair to say that this was unnecessary.
 
 Finally, I kept a development journal where every Sunday, I highlighted what what I set out to do, whether I accomplished it and how I felt about it. This was a great opportunity for a reality check, as well as to reflect on lessons I learned and celebrate my progress.
 

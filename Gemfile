@@ -20,3 +20,4 @@ gem "puma", "< 7"
 # gem "nokolexbor", "~> 0.4"
 
 gem "standard", group: :development
+gem "bridgetown_obsidian"

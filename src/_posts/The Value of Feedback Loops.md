@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "The Value of Feedback Loops"
+slug: "value-of-feedback-loops"
 published: false
 tags:
   - entrepreneurship

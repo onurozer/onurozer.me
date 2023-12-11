@@ -1,7 +1,5 @@
 ---
-layout: post
-title: "Balance between product & marketing"
-# slug: "product-vs-marketing"
+slug: "product-vs-marketing"
 published: false
 tags:
   - entrepreneurship
