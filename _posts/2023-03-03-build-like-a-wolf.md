@@ -22,7 +22,7 @@ One month was too short to build most of the things I wanted, but long enough ti
 
 One of the biggest challenges for a solo entrepreneur is staying focused. Figuring out what is worth building and avoiding rabbit holes is hard. To stay on track, I used a simple Notion board.
 
-![[attachments/dlaw-notion-board.png]]
+![Notion Project Board](/assets/images/build-like-a-wolf/dlaw-notion-board.png)
 
 Going through the exercise of figuring out which ideas are worth building every week, and focusing on a handful of things every day helped me a lot to stay focused.
 
