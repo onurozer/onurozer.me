@@ -1,9 +1,0 @@
-<% site.data.projects.sort_by{|x| x.launched }.reverse.each do |project| %>
-  <div class="mb-6 project">
-    <div class="flex items-center title gap-x-2">
-      <h3 class=""><%= project.name %></h3>
-    </div>
-    <p class=""><%= project.description %></p>
-    <%= link_to "Visit #{project.url.sub(/^https?\:\/\/(www.)?/,'')}", project.url, class: "external" %>
-  </div>
-<% end %>

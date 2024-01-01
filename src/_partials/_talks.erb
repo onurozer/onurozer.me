@@ -1,9 +1,0 @@
-<% site.data.talks.sort_by{|x| x.date}.reverse.each do |talk| %>
-  <div class="mb-6 talk">
-    <div class="flex items-center title gap-x-2">
-      <h3 class=""><%= talk.name %></h3>
-    </div>
-    <p class=""><%= talk.description %></p>
-    <%= link_to "Watch the video", talk.video, class: "external"%>
-  </div>
-<% end %>
