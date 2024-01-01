@@ -1,10 +1,19 @@
 url: "https://onurozer.me"
 title: "Onur Ozer" # the name of your site, e.g. ACME Corp.
+tagline: "Marketer turned bootstrapper"
+
 author:
   name: Onur Ozer
-  twitter: onurozer
-  github: onurozer
-  linkedin: onurozer
+  twitter: https://twitter.com/onurozer
+  linkedin: https://www.linkedin.com/in/onurozer/
+  mastodon: http://ruby.social/@onurozer
+  github: https://github.com/onurozer/
+
+# permalink: /:title/
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 timezone: Asia/Singapore
 
@@ -16,3 +25,13 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - tailwind.config.js
+
+defaults:
+  - scope:
+      path: _pages/
+    values:
+      layout: default
+  - scope:
+      path: _posts/
+    values:
+      layout: post

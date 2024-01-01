@@ -4,3 +4,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .content > p {
+    @apply mb-8;
+  }
+  .content a {
+    @apply text-pink-700;
+  }
+  .content h1 {
+    @apply mb-8 text-5xl font-extrabold tracking-tight;
+  }
+  .content h2 {
+    @apply mt-12 mb-3 text-3xl font-bold;
+  }
+  .content h3 {
+    @apply font-bold;
+  }
+
+  .content ol,
+  .content ul {
+    @apply mb-8;
+  }
+
+  .content li {
+    @apply ml-5 list-disc;
+  }
+}
+
+@layer components {
+  .external {
+    @apply after:content-['_↗'];
+  }
+  .project-live {
+    @apply bg-lime-200;
+  }
+  .project-archived {
+    @apply bg-gray-200;
+  }
+  .project-upcoming {
+    @apply bg-yellow-200;
+  }
+}

@@ -1,0 +1,9 @@
+{% for project in site.data.projects %}
+  <div class="mb-6 project">
+    <div class="flex items-center title gap-x-2">
+      <h3 class="">{{ project.name }}</h3>
+    </div>
+    <p class="">{{ project.description }} </p>
+    <a href="{{ project.url }}" class="external">{{ project.url | replace: "https://", "" | replace: "www.", "" }}</a>    
+  </div>
+{% endfor %}

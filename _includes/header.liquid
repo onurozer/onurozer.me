@@ -1,10 +1,10 @@
 <header>
   <nav>
     <div class="flex flex-wrap gap-x-6">
-      <a href="#">Home</a>
-      <a href="#">Posts</a>
-      <a href="#">Projects</a>
-      <a href="#">Talks</a>
+      <a href="/" class="{% if page.slug == "index" %}font-bold{% endif %}">Home</a>      
+      <a href="/posts" class="{% if page.slug == "posts" or page.layout == "post" %}font-bold{% endif %}">Posts</a>
+      <a href="/projects" class="{% if page.slug == "projects" %}font-bold{% endif %}">Projects</a>
+      <a href="/talks" class="{% if page.slug == "talks" %}font-bold{% endif %}">Talks</a>
     </div>
   </nav>
 </header>

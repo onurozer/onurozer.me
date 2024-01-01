@@ -1,0 +1,17 @@
+---
+title: Talks
+description: Here are my recent talks on marketing and tech.
+---
+<h1>{{ page.title }}</h1>
+<p>{{ page.description }}</p>
+
+
+{% for talk in site.data.talks %}
+  <div class="mb-6 talk">
+    <div class="flex items-center title gap-x-2">
+      <h3 class="">{{ talk.name }}</h3>
+    </div>
+    <p class="">{{ talk.description }}</p>
+    <a href="{{ talk.video }}" class="external">Watch the video</a>    
+  </div>
+{% endfor %}

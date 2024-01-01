@@ -1,0 +1,15 @@
+- name: Introduction to Hotwire
+  organizer: Singapore Ruby Group
+  event: Ruby Meetup SG
+  description: How Hotwire allows you to reuse existing Rails partials to create responsive web applications without the complexity of SPAs.
+  date: 2023-09-06 19:00:00 +0800
+  category: tech
+  video: https://www.youtube.com/watch?v=QJVa6AwK5u8
+
+- name: Foundations of Marketing
+  organizer: Ahrefs
+  event: Singapore SEO Summit
+  description: How to avoid the most common marketing mistake of starting with the tactics, and build a marketing strategy from the bottom up instead.
+  date: 2023-10-26 10:50:00 +0800
+  category: marketing
+  video: https://www.youtube.com/watch?v=ToCOpJ8klAY
