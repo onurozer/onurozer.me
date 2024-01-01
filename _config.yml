@@ -9,7 +9,8 @@ author:
   mastodon: http://ruby.social/@onurozer
   github: https://github.com/onurozer/
 
-# permalink: /:title/
+permalink: /:title/
+
 collections:
   pages:
     output: true
