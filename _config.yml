@@ -1,6 +1,18 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+url: "https://onurozer.me"
+title: "Onur Ozer" # the name of your site, e.g. ACME Corp.
+author:
+  name: Onur Ozer
+  twitter: onurozer
+  github: onurozer
+  linkedin: onurozer
+
+timezone: Asia/Singapore
 
 plugins:
   - jekyll-postcss
+
+exclude:
+  - README.md
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
