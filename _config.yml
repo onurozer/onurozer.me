@@ -24,6 +24,7 @@ timezone: Asia/Singapore
 plugins:
   - jekyll-postcss
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Make live reloading of css work by rebuilding the css everytime there's a change
 postcss:
