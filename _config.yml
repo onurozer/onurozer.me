@@ -1,6 +1,6 @@
 url: "https://onurozer.me"
 title: "Onur Ozer" # the name of your site, e.g. ACME Corp.
-tagline: "Marketer turned bootstrapper"
+description: "Marketer turned bootstrapper"
 
 author:
   name: Onur Ozer
@@ -8,6 +8,9 @@ author:
   linkedin: https://www.linkedin.com/in/onurozer/
   mastodon: http://ruby.social/@onurozer
   github: https://github.com/onurozer/
+
+twitter:
+  username: onurozer
 
 permalink: /:title/
 
@@ -20,6 +23,7 @@ timezone: Asia/Singapore
 
 plugins:
   - jekyll-postcss
+  - jekyll-seo-tag
 
 # Make live reloading of css work by rebuilding the css everytime there's a change
 postcss:

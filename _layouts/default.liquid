@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>{% unless page.slug == "index" %} {{ page.title }} - {% endunless %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    {% seo %}
   </head>
   <body class="text-xl text-gray-900">
     <div class="flex flex-col min-h-screen p-6">
