@@ -6,7 +6,8 @@ description: Here are my recent talks on marketing and tech.
 <p>{{ page.description }}</p>
 
 
-{% for talk in site.data.talks %}
+{% assign talks = site.data.talks | sort: 'date' | reverse %}
+{% for talk in talks %}
   <div class="mb-6 talk">
     <div class="flex items-center title gap-x-2">
       <h3 class="">{{ talk.name }}</h3>
