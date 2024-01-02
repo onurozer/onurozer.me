@@ -21,6 +21,10 @@ timezone: Asia/Singapore
 plugins:
   - jekyll-postcss
 
+# Make live reloading of css work by rebuilding the css everytime there's a change
+postcss:
+  cache: false
+
 exclude:
   - README.md
   - package-lock.json
