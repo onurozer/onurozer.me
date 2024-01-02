@@ -34,7 +34,7 @@
 
 @layer components {
   .external {
-    @apply after:content-['_↗'];
+    @apply after:content-["_↗"];
   }
   .project-live {
     @apply bg-lime-200;
