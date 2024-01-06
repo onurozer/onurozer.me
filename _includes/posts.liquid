@@ -1,7 +1,7 @@
-<ul>
+<ul class="mb-8">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <li class="pl-3 ml-8 list-disc">
+      <a href="{{ post.url }}" class="text-pink-700">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

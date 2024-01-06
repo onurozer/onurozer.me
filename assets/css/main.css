@@ -6,7 +6,20 @@
 @tailwind utilities;
 
 @layer base {
-  .content > p {
+  /* .content p:not(:has(img)),
+  .content h2,
+  .content h3,
+  .content ul,
+  .content ol,
+  .content table,
+  .content blockquote,
+  .content header {
+    @apply max-w-2xl mx-auto;
+  }
+  .content img{
+    @apply max-w-4xl mx-auto;
+  } */
+  .content p {
     @apply mb-8;
   }
   .content a {
@@ -16,7 +29,7 @@
     @apply mb-8 text-5xl font-extrabold tracking-tight;
   }
   .content h2 {
-    @apply mt-12 mb-3 text-3xl font-bold;
+    @apply mt-8 mb-3 text-3xl font-bold;
   }
   .content h3 {
     @apply font-bold;
@@ -28,21 +41,12 @@
   }
 
   .content li {
-    @apply ml-5 list-disc;
+    @apply pl-4 ml-8 list-disc;
   }
 }
 
 @layer components {
   .external {
     @apply after:content-["_↗"];
-  }
-  .project-live {
-    @apply bg-lime-200;
-  }
-  .project-archived {
-    @apply bg-gray-200;
-  }
-  .project-upcoming {
-    @apply bg-yellow-200;
   }
 }
