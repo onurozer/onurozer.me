@@ -6,19 +6,6 @@
 @tailwind utilities;
 
 @layer base {
-  /* .content p:not(:has(img)),
-  .content h2,
-  .content h3,
-  .content ul,
-  .content ol,
-  .content table,
-  .content blockquote,
-  .content header {
-    @apply max-w-2xl mx-auto;
-  }
-  .content img{
-    @apply max-w-4xl mx-auto;
-  } */
   .content p {
     @apply mb-8;
   }
@@ -41,7 +28,7 @@
   }
 
   .content li {
-    @apply pl-4 ml-8 list-disc;
+    @apply pl-3 ml-8 list-disc;
   }
 }
 
