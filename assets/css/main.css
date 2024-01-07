@@ -28,7 +28,13 @@
   }
 
   .content li {
-    @apply pl-3 ml-8 list-disc;
+    @apply pl-3 ml-8;
+  }
+  .content ul li{
+    @apply list-disc;
+  }
+  .content ol li{
+    @apply list-decimal;
   }
 }
 
