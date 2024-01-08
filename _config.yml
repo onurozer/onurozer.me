@@ -38,6 +38,10 @@ exclude:
 
 defaults:
   - scope:
+      path: ""
+    values:
+      image: /assets/images/onur-profile-square.jpg
+  - scope:
       path: _pages/
     values:
       layout: default
