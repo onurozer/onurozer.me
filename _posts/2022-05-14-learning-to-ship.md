@@ -1,7 +1,9 @@
 ---
+title: Learning to Ship
 description: Shipping products is a skill, and it requires practice to master.
 tags:
   - product
+image: /assets/images/open-graph/learning-to-ship.png
 ---
 
 Recently I launched [APAC Agencies](https://www.apacagencies.com) in just one week, after procrastinating on it for months. This was a great exercise in learning how to stop over-thinking and actually ship a product. Here's what helped:

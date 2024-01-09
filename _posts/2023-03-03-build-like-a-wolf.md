@@ -1,7 +1,10 @@
 ---
+title: Build Like a Wolf
+description: A few days ago, I launched Drink Like a Wolf. I found out that discipline and deadlines actually work, prioritising is hard, creating quality content is harder, and marketing early is a must.
 tags:
   - entrepreneurship
   - product
+image: /assets/images/open-graph/build-like-a-wolf.png
 ---
 
 A few days ago, I launched [Drink Like a Wolf](https://drinklikeawolf.com/), a community to help people discover natural wine makers and places. I found out that discipline and deadlines actually work, prioritising is hard, creating quality content is harder, and marketing early is a must.

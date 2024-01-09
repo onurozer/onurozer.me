@@ -38,7 +38,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/onur-profile-square.jpg
+      image: /assets/images/open-graph/default.png
   - scope:
       path: _pages/
     values:
