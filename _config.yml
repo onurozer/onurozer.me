@@ -4,9 +4,6 @@ description: "Marketer turned bootstrapper"
 
 author:
   name: Onur Ozer
-  twitter: onurozer
-  github: onurozer
-  linkedin: onurozer
 
 twitter:
   username: onurozer
@@ -25,6 +22,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-inline-svg
 
 # Make live reloading of css work by rebuilding the css everytime there's a change
 postcss:
