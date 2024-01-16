@@ -1,0 +1,9 @@
+---
+title: About
+description: Here are 7 random facts about me.
+---
+
+<div class="content">
+  {% capture markdown %} {% include content/about.md %} {% endcapture %}
+  {{ markdown | markdownify }}
+</div>
