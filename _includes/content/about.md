@@ -18,7 +18,7 @@ I was born and raised in Istanbul, Turkey. Currently I live in Singapore with my
 ![Man in lululemons](/assets/images/about/yoga.jpg)
 *Almost there, but not quite*
 
-- Just before the pandemic in 2019, we moved to a small village in Switzerland. Our only friends were cows and roosters. In the first few months, For the first few months, I spent most of my time learning enough French so that I could buy a car and order Raclette.
+- Just before the pandemic in 2019, we moved to a small village in Switzerland. Our only friends were cows and roosters. In the first few months, I spent most of my time learning enough French so I could buy a car and order raclette.
 
 - I [cook](https://forage.sg) a lot. At least that's what I tell myself everytime I buy a Japanese knife.
 
