@@ -11,12 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.3)
-    google-protobuf (3.25.3-aarch64-linux)
     google-protobuf (3.25.3-arm64-darwin)
-    google-protobuf (3.25.3-x86-linux)
-    google-protobuf (3.25.3-x86_64-darwin)
-    google-protobuf (3.25.3-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -59,17 +54,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.16.2-aarch64-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.2-arm-linux)
-      racc (~> 1.4)
     nokogiri (1.16.2-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.2-x86-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -81,25 +66,7 @@ GEM
     rexml (3.2.6)
     rouge (4.2.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.71.1-aarch64-linux-gnu)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-aarch64-linux-musl)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-arm-linux-gnueabihf)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-arm-linux-musleabihf)
-      google-protobuf (~> 3.25)
     sass-embedded (1.71.1-arm64-darwin)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-x86-linux-gnu)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-x86-linux-musl)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-x86_64-darwin)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-x86_64-linux-gnu)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.71.1-x86_64-linux-musl)
       google-protobuf (~> 3.25)
     svg_optimizer (0.3.0)
       nokogiri
@@ -109,20 +76,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux
-  arm-linux-gnueabihf
-  arm-linux-musleabihf
-  arm64-darwin
-  x86-linux
-  x86-linux-gnu
-  x86-linux-musl
-  x86_64-darwin
-  x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
+  arm64-darwin-23
 
 DEPENDENCIES
   jekyll
@@ -133,4 +87,4 @@ DEPENDENCIES
   jekyll-sitemap
 
 BUNDLED WITH
-   2.5.6
+   2.4.10
