@@ -17,13 +17,6 @@ collections:
 
 timezone: Asia/Singapore
 
-plugins:
-  - jekyll-postcss
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-inline-svg
-
 # Make live reloading of css work by rebuilding the css everytime there's a change
 postcss:
   cache: false
